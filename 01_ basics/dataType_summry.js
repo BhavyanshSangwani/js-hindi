@@ -19,3 +19,22 @@ let myObj={
 const myFunction=function(){
     console.log("Hello world");
 }
+/******************************************************************************* */
+
+//Stack(Primitive datatype),Heap(Non-primitive datatype)
+
+let name="Bhavyansh";
+anotherName=name
+anotherName="Aakash"
+console.log(name)
+console.log(anotherName)
+
+
+let userOne={
+    email:"user@google.com",
+    upi: "user@ybl"
+}
+let userTwo=userOne
+userTwo.email="Bhavyansh@gmail.com"
+console.log(userOne.email)
+console.log(userTwo.email)
