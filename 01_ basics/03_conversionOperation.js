@@ -17,3 +17,14 @@ console.log(valueInNumber)
 let loggedin=1
 let booleanLoggedIn=Boolean(loggedin);
 console.log(booleanLoggedIn)
+
+
+
+/*  *******************************Operations*************************************************/
+
+let value=3
+let negValue=-value
+console.log(negValue);
+
+console.log(+true)
+console.log(+"")
